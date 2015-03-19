@@ -42,13 +42,6 @@
 
 <body>
 
-    <?php
-        
-        //simulate server side processing time
-        $sleep = (isset($_GET["sleep"]) ? $_GET["sleep"] : 0);
-		if($sleep && $sleep.is_int()) sleep($sleep);
-    ?>
-
     <!-- Navigation -->
     <header class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">

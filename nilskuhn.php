@@ -316,7 +316,7 @@
                     <li class="col-md-3">
                         <div class="thumbnail" href="assets/images/tree.jpeg">
                             <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Asia" src="assets/images/tree.jpeg">
+                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Asia" data-src="assets/images/tree.jpeg">
                             </a>
                             <div class="caption">
                                 <h4>
@@ -437,7 +437,7 @@
                     <li class="col-md-3">
                         <div class="thumbnail" href="assets/images/cibeles.jpg">
                             <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Cibeles, Madrid, Spain" src="assets/images/cibeles_small_2.jpg">
+                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Cibeles, Madrid, Spain" data-src="assets/images/cibeles_small_2.jpg">
                             </a>
                             <div class="caption">
                                 <h4><a href="javascript:;">Cibeles, Madrid, Spain</a></h4>
@@ -818,7 +818,7 @@
     <!-- /.container -->
 
     
-
+    <script type="text/javascript" src="js/postPictureLoad.js"></script>
     <script src="js/profiler.js"></script>
     <script>
         new __Profiler().init(document.getElementById('timingResult'));

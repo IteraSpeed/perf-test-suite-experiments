@@ -11,17 +11,14 @@
     <title>perf-test-suite</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Jquery Magnific popup css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
-
-    <!-- icons -->
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
-
-    <!-- Custom CSS -->
-    <link href="assets/css/header.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<!-- Jquery Magnific popup css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+	<!-- icons -->
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+	<!-- Custom CSS -->
+	<link href="assets/css/header.css" rel="stylesheet">
+	<link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/spritesheet.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -33,9 +30,9 @@
 
     <!-- jQuery Version 1.11.0 -->
 	<script src="js/jquery-1.11.0.js"></script>
-	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
 	<!-- Bootstrap Core JavaScript -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.js"></script>
 	<script src="js/jquery.magnific-popup.js"></script>
 	<script src="js/shuffle.js"></script>
 	<script src="js/jquery.shapeshift.js"></script>
@@ -68,19 +65,22 @@
             <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
               <ul class="nav navbar-nav">
                     <li>
-                        <a null href="index.php">Home</a>
+                        <a  href="index.php">Home</a>
                     </li>
                     <li>
-                        <a null href="optimized_chunked_encoding.php">Chunked encodig</a>
+                        <a  href="optimized_chunked_encoding.php">Chunked encodig</a>
                     </li>
                     <li>
-                        <a class="selected"java.io.FileWriter@6624d938 href="optimized_css_sprites.php">CSS Sprites</a>
+                        <a class="selected" href="optimized_css_sprites.php">CSS Sprites</a>
                     </li>
                     <li>
-                        <a null href="optimized_minified.php">Minified Resources</a>
+                        <a  href="optimized_minified.php">Minified Resources</a>
                     </li>
                     <li>
-                        <a null href="optimized_pictureload.php">Postload images</a>
+                        <a  href="optimized_pictureload.php">Postload images</a>
+                    </li>
+                    <li>
+                        <a <a <a  href="optimized_javascripts_end_of_body.php">Javascripts end of body</a>
                     </li>
                     <!-- we should add an about page
                     <li>
@@ -168,7 +168,11 @@
                                 <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Rila mountain, Bulgaria" src="assets/images/rila_small.jpg">
                             </a>
                             <div class="caption">
-                                <h4><a href="javascript:;">Rila mountain, Bulgaria</a></h4>
+                                <h4>
+									<a href="javascript:;">
+										<i class="sprite sprite-holiday-mountain"></i> Rila mountain, Bulgaria
+									</a>
+								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
@@ -189,7 +193,12 @@
                                 <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Varna" src="assets/images/varna.jpeg">
                             </a>
                             <div class="caption">
-                                <h4><a href="javascript:;">Varna, Bulgaria</a></h4>
+                                <h4>
+									<a href="javascript:;">
+										<i class="sprite sprite-holiday-town"></i>
+										Varna, Bulgaria
+									</a>
+								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
@@ -210,7 +219,11 @@
                                 <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Tzarevets, Veliko Tarnvo, Bulgaria" src="assets/images/tsarevets_small.jpg">
                             </a>
                             <div class="caption">
-                                <h4><a href="javascript:;">Tzarevets, Veliko Tarnovo, Bulgaria</a></h4>
+                                <h4>
+									<a href="javascript:;">
+										<i class="sprite sprite-holiday-nature"></i> Tzarevets, Veliko Tarnovo, Bulgaria
+									</a>
+								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
@@ -231,7 +244,11 @@
                                 <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="London" src="assets/images/london.jpeg">
                             </a>
                             <div class="caption">
-                                <h4><a href="javascript:;">London</a></h4>
+                                <h4>
+									<a href="javascript:;">
+										<i class="sprite sprite-holiday-travel"></i> London
+									</a>
+								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
@@ -252,7 +269,11 @@
                                 <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Cibeles, Madrid, Spain" src="assets/images/cibeles_small.jpg">
                             </a>
                             <div class="caption">
-                                <h4><a href="javascript:;">Cibeles, Madrid, Spain</a></h4>
+                                <h4>
+									<a href="javascript:;">
+										<i class="sprite sprite-holiday-sun"></i> Cibeles, Madrid, Spain
+									</a>
+								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
@@ -273,7 +294,11 @@
                                 <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Recife, Brasil" src="assets/images/recife_small_1.jpg">
                             </a>
                             <div class="caption">
-                                <h4><a href="javascript:;">Recife, Brasil</a></h4>
+                                <h4>
+									<a href="javascript:;">
+										<i class="sprite sprite-holiday-beach"></i> Recife, Brasil
+									</a>
+								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
@@ -294,7 +319,11 @@
                                 <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Asia" src="assets/images/tree.jpeg">
                             </a>
                             <div class="caption">
-                                <h4><a href="javascript:;">Asia</a></h4>
+                                <h4>
+									<a href="javascript:;">
+										<img class="icon-small" src="assets/images/icons/holiday-tree.png" /> Asia
+									</a>
+								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
@@ -315,7 +344,11 @@
                                 <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="San Francisco" src="assets/images/san-fran.jpeg">
                             </a>
                             <div class="caption">
-                                <h4><a href="javascript:;">San Francisco</a></h4>
+                                <h4>
+									<a href="javascript:;">
+										<i class="sprite sprite-holiday-car"></i> San Francisco
+									</a>
+								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
@@ -336,7 +369,11 @@
                                 <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Cheetah" src="assets/images/cheetah.jpeg">
                             </a>
                             <div class="caption">
-                                <h4><a href="javascript:;">Africa</a></h4>
+                                <h4>
+									<a href="javascript:;">
+										<i class="sprite sprite-holiday-nature"></i> Africa
+									</a>
+								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
@@ -357,7 +394,11 @@
                                 <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Tzarevets, Veliko Tarnvo, Bulgaria" src="assets/images/tsarevets_small_2.jpg">
                             </a>
                             <div class="caption">
-                                <h4><a href="javascript:;">Tzarevets, Veliko Tarnovo, Bulgaria</a></h4>
+                                <h4>
+									<a href="javascript:;">
+										<i class="sprite sprite-holiday-animals"></i> Tzarevets, Veliko Tarnovo, Bulgaria
+									</a>
+								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
@@ -733,426 +774,6 @@
                         <div class="thumbnail" href="assets/images/cheetah.jpeg">
                             <a href="javascript:;">
                                 <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Cheetah" src="assets/images/cheetah_5.jpeg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">Africa</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>0 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/recife.jpg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Recife, Brasil" src="assets/images/recife_small_6.jpg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">Recife, Brasil</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>6 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/tree.jpeg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Asia" src="assets/images/tree_6.jpeg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">Asia</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>31 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/san-fran.jpeg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="San Francisco" src="assets/images/san-fran_6.jpeg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">San Francisco</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>0 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/cheetah.jpeg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Cheetah" src="assets/images/cheetah_6.jpeg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">Africa</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>0 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/recife.jpg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Recife, Brasil" src="assets/images/recife_small_7.jpg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">Recife, Brasil</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>6 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/tree.jpeg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Asia" src="assets/images/tree_7.jpeg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">Asia</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>31 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/san-fran.jpeg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="San Francisco" src="assets/images/san-fran_7.jpeg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">San Francisco</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>0 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/cheetah.jpeg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Cheetah" src="assets/images/cheetah_7.jpeg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">Africa</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>0 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/recife.jpg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Recife, Brasil" src="assets/images/recife_small_8.jpg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">Recife, Brasil</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>6 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/tree.jpeg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Asia" src="assets/images/tree_8.jpeg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">Asia</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>31 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/san-fran.jpeg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="San Francisco" src="assets/images/san-fran_8.jpeg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">San Francisco</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>0 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/cheetah.jpeg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Cheetah" src="assets/images/cheetah_8.jpeg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">Africa</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>0 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/recife.jpg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Recife, Brasil" src="assets/images/recife_small_9.jpg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">Recife, Brasil</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>6 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/tree.jpeg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Asia" src="assets/images/tree_9.jpeg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">Asia</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>31 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/san-fran.jpeg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="San Francisco" src="assets/images/san-fran_9.jpeg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">San Francisco</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>0 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/cheetah.jpeg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Cheetah" src="assets/images/cheetah_9.jpeg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">Africa</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>0 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/recife.jpg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Recife, Brasil" src="assets/images/recife_small_10.jpg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">Recife, Brasil</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>6 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/tree.jpeg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Asia" src="assets/images/tree_10.jpeg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">Asia</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>31 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/san-fran.jpeg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="San Francisco" src="assets/images/san-fran_10.jpeg">
-                            </a>
-                            <div class="caption">
-                                <h4><a href="javascript:;">San Francisco</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
-                            </div>
-                            <div class="ratings">
-                                <p>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star-filled"></i>
-									<i class="sprite sprite-star"></i>
-									<i class="sprite sprite-star"></i>
-                                </p>
-								<p>0 reviews</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3">
-                        <div class="thumbnail" href="assets/images/cheetah.jpeg">
-                            <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Cheetah" src="assets/images/cheetah_10.jpeg">
                             </a>
                             <div class="caption">
                                 <h4><a href="javascript:;">Africa</a></h4>

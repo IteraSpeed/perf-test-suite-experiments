@@ -36,7 +36,8 @@
 	<script src="js/jquery.magnific-popup.js"></script>
 	<script src="js/shuffle.js"></script>
 	<script src="js/jquery.shapeshift.js"></script>
-	<script src="js/homepage.js"></script>
+  <script src="js/homepage.js"></script>
+  <script src="jsMinified/postPictureLoad.js"></script>
 
 </head>
 
@@ -100,7 +101,7 @@
     <!-- Page Content -->
     <div class="container page" id="home">
 
-        <h2>Example shop page3</h2>
+        <h2>Example shop page4</h2>
 
         <!-- carrousel -->
         <div class="row">

@@ -56,7 +56,7 @@
             <div class="navbar-header">
                 <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
-                    <img src="assets/images/icons/bars.png" />
+                    <i class="fa fa-bars"></i>
                 </button>
 
                 <a href="index.php" class="navbar-brand">perf-test-suite</a>
@@ -74,7 +74,7 @@
                             <a  href="optimized_css_sprites.php">CSS Sprites</a>
                         </li>
                         <li>
-                            <a  href="optimized_font_awesome.php">Font Awesome</a>
+                            <a class="selected" href="optimized_font_awesome.php">Font Awesome</a>
                         </li>
                         <li>
                             <a  href="optimized_minified.php">Minified Resources</a>
@@ -96,7 +96,7 @@
                       </ul>
                     </li>
               </ul>
-              <p class="navbar-text">index.php</p>
+              <p class="navbar-text">optimized_font_awesome.php</p>
             </nav>
             <!-- /.navbar-collapse -->
         </div>
@@ -138,10 +138,10 @@
                             </div>
                         </div>
                         <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <img src="assets/images/icons/chevron-left.png" />
+                            <i class="fa fa-chevron-left"></i>
                         </a>
                         <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                            <img src="assets/images/icons/chevron-right.png" />
+                            <i class="fa fa-chevron-right"></i>
                         </a>
                     </div>
                 </div>
@@ -157,9 +157,9 @@
                     </div>
                     <div class="col-sm-9">
                         <p>
-                            <img src="assets/images/icons/quote-left.png" />
+                            <i class="fa fa-quote-left"></i>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.
-                            <img src="assets/images/icons/quote-right.png" />
+                            <i class="fa fa-quote-right"></i>
                         </p>
                         <small>Someone famous</small>
                     </div>
@@ -179,18 +179,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets/images/icons/holiday-mountain.png" /> Rila mountain, Bulgaria
+										<i class="fa fa-photo"></i> Rila mountain, Bulgaria
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-                                    <img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+                                    <i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
                                 <p>22 reviews</p>
                             </div>
@@ -204,7 +204,7 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets/images/icons/holiday-town.png" />
+										<i class="fa fa-suitcase"></i>
 										Varna, Bulgaria
 									</a>
 								</h4>
@@ -212,11 +212,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
                                 <p>28 reviews</p>
                             </div>
@@ -230,18 +230,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets/images/icons/holiday-nature.png" /> Tzarevets, Veliko Tarnovo, Bulgaria
+										<i class="fa fa-tree"></i> Tzarevets, Veliko Tarnovo, Bulgaria
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>28 reviews</p>
                             </div>
@@ -255,18 +255,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets/images/icons/holiday-travel.png" /> London
+										<i class="fa fa-road"></i> London
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>15 reviews</p>
                             </div>
@@ -280,18 +280,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets/images/icons/holiday-sun.png" /> Cibeles, Madrid, Spain
+										<i class="fa fa-home"></i> Cibeles, Madrid, Spain
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>12 reviews</p>
                             </div>
@@ -305,18 +305,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets/images/icons/holiday-beach.png" /> Recife, Brasil
+										<i class="fa fa-sun-o"></i> Recife, Brasil
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>6 reviews</p>
                             </div>
@@ -330,18 +330,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets/images/icons/holiday-tree.png" /> Asia
+										<i class="fa fa-pagelines"></i> Asia
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>31 reviews</p>
                             </div>
@@ -355,18 +355,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets/images/icons/holiday-car.png" /> San Francisco
+										<i class="fa fa-car"></i> San Francisco
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>0 reviews</p>
                             </div>
@@ -380,18 +380,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets/images/icons/holiday-nature.png" /> Africa
+										<i class="fa fa-tree"></i> Africa
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>0 reviews</p>
                             </div>
@@ -405,18 +405,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets/images/icons/holiday-animals.png" /> Tzarevets, Veliko Tarnovo, Bulgaria
+										<i class="fa fa-camera-retro"></i> Tzarevets, Veliko Tarnovo, Bulgaria
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>28 reviews</p>
                             </div>
@@ -433,11 +433,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>15 reviews</p>
                             </div>
@@ -454,11 +454,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>12 reviews</p>
                             </div>
@@ -475,11 +475,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>6 reviews</p>
                             </div>
@@ -496,11 +496,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>31 reviews</p>
                             </div>
@@ -517,11 +517,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>0 reviews</p>
                             </div>
@@ -538,11 +538,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>0 reviews</p>
                             </div>
@@ -559,11 +559,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>6 reviews</p>
                             </div>
@@ -580,11 +580,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>31 reviews</p>
                             </div>
@@ -601,11 +601,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>0 reviews</p>
                             </div>
@@ -622,11 +622,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>0 reviews</p>
                             </div>
@@ -643,11 +643,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>6 reviews</p>
                             </div>
@@ -664,11 +664,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>31 reviews</p>
                             </div>
@@ -685,11 +685,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>0 reviews</p>
                             </div>
@@ -706,11 +706,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>0 reviews</p>
                             </div>
@@ -727,11 +727,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>6 reviews</p>
                             </div>
@@ -748,11 +748,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>31 reviews</p>
                             </div>
@@ -769,11 +769,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>0 reviews</p>
                             </div>
@@ -790,11 +790,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
                                 </p>
 								<p>0 reviews</p>
                             </div>

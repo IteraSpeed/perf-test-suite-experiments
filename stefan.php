@@ -142,12 +142,10 @@
                             </div>
                         </div>
                         <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <img src="assets/images/icons/chevron-left.png" />
                             <i class="fa fa-chevron-left"></i>
                         </a>
                         <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                            <img src="assets/images/icons/chevron-right.png" />
-                            <i class="fa fa-chevron-left"></i>
+                            <i class="fa fa-chevron-right"></i>
                         </a>
                     </div>
                 </div>

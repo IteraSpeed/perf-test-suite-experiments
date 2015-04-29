@@ -20,6 +20,8 @@
 	<link href="assets/css/header.css" rel="stylesheet">
 	<link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/spritesheet.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    
     
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -108,7 +110,7 @@
     <!-- Page Content -->
     <div class="container page" id="home">
 
-        <h2>Example shop page (Stefan - V6)</h2>
+        <h2>Example shop page (Stefan - V7)</h2>
 
         <!-- carrousel -->
         <div class="row">
@@ -141,9 +143,11 @@
                         </div>
                         <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
                             <img src="assets/images/icons/chevron-left.png" />
+                            <i class="fa fa-chevron-left"></i>
                         </a>
                         <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
                             <img src="assets/images/icons/chevron-right.png" />
+                            <i class="fa fa-chevron-left"></i>
                         </a>
                     </div>
                 </div>

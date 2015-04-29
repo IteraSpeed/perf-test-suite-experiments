@@ -4,15 +4,17 @@
     <body>
     <img id="p3" src="3.jpg" />
     <script>
-        var iframe = document.createElement('iframe');
-        //iframe.style.display = "none";
-        iframe.src = "thomas.htm";
-        iframe.width="100%";
-        iframe.height="800";
-        document.body.appendChild(iframe);
-        //alert("XX");
-        var image_x = document.getElementById('p3');
-        image_x.parentNode.removeChild(image_x);
+        function ix(){
+             var iframe = document.createElement('iframe');
+             iframe.src = "thomas.htm";
+             iframe.width="100%";
+             iframe.height="800";
+             document.body.appendChild(iframe);
+             var image_x = document.getElementById('p3');
+             image_x.parentNode.removeChild(image_x);
+        }
+
+        window.setTimeout(ix, 3000);
     </script>
 </body>
 

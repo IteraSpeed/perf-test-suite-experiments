@@ -106,7 +106,7 @@
     <!-- Page Content -->
     <div class="container page" id="home">
 
-        <h2>Example shop page</h2>
+        <h2>### SCALE rulez tha house!!!1!11!!elf!  ###</h2>
 
         <!-- carrousel -->
         <div class="row">

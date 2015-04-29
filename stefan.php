@@ -108,7 +108,7 @@
     <!-- Page Content -->
     <div class="container page" id="home">
 
-        <h2>Example shop page (Stefan - V2)</h2>
+        <h2>Example shop page (Stefan - V3)</h2>
 
         <!-- carrousel -->
         <div class="row">

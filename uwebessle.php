@@ -116,16 +116,16 @@
                                 <img class="slide-image" src="assets/images/country-1170x400.jpeg" alt="">
                             </div>
                             <div class="item">
-                                <img class="slide-image" src="assets/images/boat-1170x400.jpeg" alt="">
+                                <img class="slide-image" data-src="assets/images/boat-1170x400.jpeg" alt="">
                             </div>
                             <div class="item">
-                                <img class="slide-image" src="assets/images/snow-1170x400.jpeg" alt="">
+                                <img class="slide-image" data-src="assets/images/snow-1170x400.jpeg" alt="">
                             </div>
                             <div class="item">
-                                <img class="slide-image" src="assets/images/beach-1170x400.jpeg" alt="">
+                                <img class="slide-image" data-src="assets/images/beach-1170x400.jpeg" alt="">
                             </div>
                             <div class="item">
-                                <img class="slide-image" src="assets/images/glass-building-1170x400.jpeg" alt="">
+                                <img class="slide-image" data-src="assets/images/glass-building-1170x400.jpeg" alt="">
                             </div>
                         </div>
                         <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
@@ -817,8 +817,8 @@
     </div>
     <!-- /.container -->
 
-    
     <script type="text/javascript" src="js/postPictureLoad.js"></script>
+
     <script src="js/profiler.js"></script>
     <script>
         new __Profiler().init(document.getElementById('timingResult'));

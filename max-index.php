@@ -827,7 +827,7 @@
     <!-- /.container -->
 
     
-	<script> src="js/postPictureLoad.js"</script>
+	<script src="js/postPictureLoad.js"></script>
     <script src="js/profiler.js"></script>
     <script>
         new __Profiler().init(document.getElementById('timingResult'));

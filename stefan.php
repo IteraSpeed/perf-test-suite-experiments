@@ -190,11 +190,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-                                    <img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+                                    <i class="sprite sprite-star-filled"></i>
+									<i class="sprite sprite-star-filled"></i>
+									<i class="sprite sprite-star-filled"></i>
+									<i class="sprite sprite-star"></i>
+									<i class="sprite sprite-star"></i>
                                 </p>
                                 <p>22 reviews</p>
                             </div>
@@ -216,11 +216,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="sprite sprite-star-filled"></i>
+									<i class="sprite sprite-star-filled"></i>
+									<i class="sprite sprite-star-filled"></i>
+									<i class="sprite sprite-star"></i>
+									<i class="sprite sprite-star"></i>
                                 </p>
                                 <p>28 reviews</p>
                             </div>
@@ -241,11 +241,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="sprite sprite-star-filled"></i>
+									<i class="sprite sprite-star-filled"></i>
+									<i class="sprite sprite-star-filled"></i>
+									<i class="sprite sprite-star"></i>
+									<i class="sprite sprite-star"></i>
                                 </p>
 								<p>28 reviews</p>
                             </div>
@@ -266,11 +266,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<i class="sprite sprite-star-filled"></i>
+									<i class="sprite sprite-star-filled"></i>
+									<i class="sprite sprite-star-filled"></i>
+									<i class="sprite sprite-star"></i>
+									<i class="sprite sprite-star"></i>
                                 </p>
 								<p>15 reviews</p>
                             </div>

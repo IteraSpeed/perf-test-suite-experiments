@@ -10,7 +10,7 @@
 
     <title>perf-test-suite</title>
 
-	<link href="assets/css/public_all.css" rel="stylesheet">
+	<link href="assets/css/all_public.css" rel="stylesheet">
     
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -810,7 +810,7 @@
     </div>
     <!-- /.container -->
 
-	<script src="js/public_all.js"></script>
+	<script src="js/all_public.js"></script>
     <script>
         new __Profiler().init(document.getElementById('timingResult'));
     </script>

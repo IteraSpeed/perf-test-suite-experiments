@@ -37,6 +37,7 @@
 	<script src="js/shuffle.js"></script>
 	<script src="js/jquery.shapeshift.js"></script>
 	<script src="js/homepage.js"></script>
+    <script src="js/stefan.js"></script>
 
 </head>
 
@@ -106,7 +107,7 @@
     <!-- Page Content -->
     <div class="container page" id="home">
 
-        <h2>Example shop page (Stefan)</h2>
+        <h2>Example shop page (Stefan - V2)</h2>
 
         <!-- carrousel -->
         <div class="row">
@@ -125,16 +126,16 @@
                                 <img class="slide-image" src="assets/images/country-1170x400.jpeg" alt="">
                             </div>
                             <div class="item">
-                                <img class="slide-image" src="assets/images/boat-1170x400.jpeg" alt="">
+                                <img class="slide-image" data-src="assets/images/boat-1170x400.jpeg" alt="">
                             </div>
                             <div class="item">
-                                <img class="slide-image" src="assets/images/snow-1170x400.jpeg" alt="">
+                                <img class="slide-image" data-src="assets/images/snow-1170x400.jpeg" alt="">
                             </div>
                             <div class="item">
-                                <img class="slide-image" src="assets/images/beach-1170x400.jpeg" alt="">
+                                <img class="slide-image" data-src="assets/images/beach-1170x400.jpeg" alt="">
                             </div>
                             <div class="item">
-                                <img class="slide-image" src="assets/images/glass-building-1170x400.jpeg" alt="">
+                                <img class="slide-image" data-src="assets/images/glass-building-1170x400.jpeg" alt="">
                             </div>
                         </div>
                         <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">

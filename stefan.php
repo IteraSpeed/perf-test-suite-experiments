@@ -31,16 +31,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- jQuery Version 1.11.0 -->
-	<script src="js/jquery-1.11.0.js"></script>
-	<script src="js/jquery-ui.js"></script>
-	<!-- Bootstrap Core JavaScript -->
-	<script src="js/bootstrap.js"></script>
-	<script src="js/jquery.magnific-popup.js"></script>
-	<script src="js/shuffle.js"></script>
-	<script src="js/jquery.shapeshift.js"></script>
-	<script src="js/homepage.js"></script>
-    <script src="js/stefan.js"></script>
+ 
 
 </head>
 
@@ -833,7 +824,16 @@
     <!-- /.container -->
 
     
-
+   <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/shuffle.js"></script>
+    <script src="js/jquery.shapeshift.js"></script>
+    <script src="js/homepage.js"></script>
+    <script src="js/stefan.js"></script>
     <script src="js/profiler.js"></script>
     <script>
         new __Profiler().init(document.getElementById('timingResult'));

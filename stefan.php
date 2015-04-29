@@ -19,6 +19,7 @@
 	<!-- Custom CSS -->
 	<link href="assets/css/header.css" rel="stylesheet">
 	<link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/spritesheet.css" rel="stylesheet">
     
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -159,8 +160,10 @@
                     <div class="col-sm-9">
                         <p>
                             <img src="assets/images/icons/quote-left.png" />
+                            <i class="sprite sprite-quote-left">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.
                             <img src="assets/images/icons/quote-right.png" />
+                            <i class="sprite sprite-quote-right">
                         </p>
                         <small>Someone famous</small>
                     </div>

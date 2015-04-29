@@ -160,7 +160,7 @@
                         <p>
                             <i class="sprite sprite-quote-left" ></i>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.
-                            <i class="sprite-quote-right" ></i>
+                            <li class="sprite sprite-quote-right" ></li>
                         </p>
                         <small>Someone famous</small>
                     </div>

@@ -280,18 +280,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets/images/icons/holiday-sun.png" /> Cibeles, Madrid, Spain
+										<img class="icon-small" data-src="assets/images/icons/holiday-sun.png" /> Cibeles, Madrid, Spain
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                 </p>
 								<p>12 reviews</p>
                             </div>
@@ -305,18 +305,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets/images/icons/holiday-beach.png" /> Recife, Brasil
+										<img class="icon-small" data-src="assets/images/icons/holiday-beach.png" /> Recife, Brasil
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                 </p>
 								<p>6 reviews</p>
                             </div>
@@ -330,18 +330,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets/images/icons/holiday-tree.png" /> Asia
+										<img class="icon-small" data-src="assets/images/icons/holiday-tree.png" /> Asia
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                 </p>
 								<p>31 reviews</p>
                             </div>
@@ -355,18 +355,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets/images/icons/holiday-car.png" /> San Francisco
+										<img class="icon-small" data-src="assets/images/icons/holiday-car.png" /> San Francisco
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                 </p>
 								<p>0 reviews</p>
                             </div>
@@ -380,18 +380,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets/images/icons/holiday-nature.png" /> Africa
+										<img class="icon-small" data-src="assets/images/icons/holiday-nature.png" /> Africa
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                 </p>
 								<p>0 reviews</p>
                             </div>
@@ -405,18 +405,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets/images/icons/holiday-animals.png" /> Tzarevets, Veliko Tarnovo, Bulgaria
+										<img class="icon-small" data-src="assets/images/icons/holiday-animals.png" /> Tzarevets, Veliko Tarnovo, Bulgaria
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                 </p>
 								<p>28 reviews</p>
                             </div>
@@ -433,11 +433,11 @@
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                 </p>
 								<p>15 reviews</p>
                             </div>

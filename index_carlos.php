@@ -158,7 +158,7 @@
                     </div>
                     <div class="col-sm-9">
                         <p>
-                            <i class="sprite-quote-left" ></i>
+                            <i class="sprite sprite-quote-left" ></i>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.
                             <i class="sprite-quote-right" ></i>
                         </p>

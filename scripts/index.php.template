@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="iteratec">
+
+    <title>perf-test-suite</title>
+
+    <%= stylesheets %>
+    <%= sprites_stylesheets %>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <%= javascripts_head %>
+
+</head>
+
+<body>
+
+    <?php
+        <%= chunked_encoding_block %>
+        //simulate server side processing time
+        <%= sleep_block %>
+    ?>
+
+    <!-- Navigation -->
+    <header class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <%= img_small_bars %>
+                </button>
+
+                <a href="index.php" class="navbar-brand">perf-test-suite</a>
+            </div>
+
+            <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+              <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Optimizations <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li>
+                            <a <%= out << (name.equals('optimized_chunked_encoding.php') ? "class=\"selected\"" : "");return "" %> href="optimized_chunked_encoding.php">Chunked encodig</a>
+                        </li>
+                        <li>
+                            <a <%= out << (name.equals('optimized_css_sprites.php') ? "class=\"selected\"" : "");return "" %> href="optimized_css_sprites.php">CSS Sprites</a>
+                        </li>
+                        <li>
+                            <a <%= out << (name.equals('optimized_font_awesome.php') ? "class=\"selected\"" : "");return "" %> href="optimized_font_awesome.php">Font Awesome</a>
+                        </li>
+                        <li>
+                            <a <%= out << (name.equals('optimized_minified.php') ? "class=\"selected\"" : "");return "" %> href="optimized_minified.php">Minified Resources</a>
+                        </li>
+                        <li>
+                            <a <%= out << (name.equals('optimized_pictureload.php') ? "class=\"selected\"" : "");return "" %> href="optimized_pictureload.php">Postload images</a>
+                        </li>
+                        <li>
+                            <a <%= out << (name.equals('optimized_javascripts_end_of_body.php') ? "class=\"selected\"" : "");return "" %> href="optimized_javascripts_end_of_body.php">Javascripts end of body</a>
+                        </li>
+                        <li>
+                            <a <%= out << (name.equals('optimized_images.php') ? "class=\"selected\"" : "");return "" %> href="optimized_images.php">Optimized images</a>
+                        </li>
+                        <li>
+                            <a <%= out << (name.equals('optimized_caching_headers.php') ? "class=\"selected\"" : "");return "" %> href="optimized_caching_headers.php">Sensible caching headers</a>
+                        </li>
+                        <li>
+                            <a <%= out << (name.equals('optimized_compression_enabled.php') ? "class=\"selected\"" : "");return "" %> href="optimized_compression_enabled.php">Compression enabled</a>
+                        </li>
+                        <li>
+                            <a <%= out << (name.equals('optimized_rwd_avoid_loading_hidden_images.php') ? "class=\"selected\"" : "");return "" %> href="optimized_rwd_avoid_loading_hidden_images.php">[RWD] Avoid loading hidden images</a>
+                        </li>
+                        <!-- we should add an about page
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        -->
+                      </ul>
+                    </li>
+              </ul>
+              <p class="navbar-text"><%= name %></p>
+            </nav>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </header>
+
+    <!-- Page Content -->
+    <div class="container page" id="home">
+
+        <h2>Example shop page</h2>
+
+        <!-- carrousel -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="carousel-holder">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="slide-image" src="<%= image_folder_name %>country-1170x400.jpeg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="slide-image" <%= data_prefix_pictureload %>src="<%= image_folder_name %>boat-1170x400.jpeg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="slide-image" <%= data_prefix_pictureload %>src="<%= image_folder_name %>snow-1170x400.jpeg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="slide-image" <%= data_prefix_pictureload %>src="<%= image_folder_name %>beach-1170x400.jpeg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="slide-image" <%= data_prefix_pictureload %>src="<%= image_folder_name %>glass-building-1170x400.jpeg" alt="">
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <%= img_small_chevron_left %>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <%= img_small_chevron_right %>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- quotes -->
+        <div class="row margin30">
+            <div class="col-md-9 box-center">
+                <blockquote>
+                    <div class="col-sm-3 text-center">
+                        <img class="img-circle" style="width: 100px;height:100px;" src="<%= image_folder_name %>person_3.png">
+                    </div>
+                    <div class="col-sm-9">
+                        <p>
+                            <%= img_small_quote_left %>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.
+                            <%= img_small_quote_right %>
+                        </p>
+                        <small>Someone famous</small>
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h3><small>Recent Bookings</small></h3>
+                <ul class="thumbnails">
+                    <li class="col-md-3">
+                        <div class="thumbnail" href="<%= image_folder_name %>rila.jpg">
+                            <a href="javascript:;">
+                                <%= image_rila %>
+                            </a>
+                            <div class="caption">
+                                <h4>
+									<a href="javascript:;">
+										<%= icon_holiday_mountain %> Rila mountain, Bulgaria
+									</a>
+								</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                            </div>
+                            <div class="ratings">
+                                <p>
+                                    <%= icon_block %>
+                                </p>
+                                <p>22 reviews</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-3">
+                        <div class="thumbnail" href="<%= image_folder_name %>varna_panorama.jpeg">
+                            <a href="javascript:;">
+                                <%= image_varna %>
+                            </a>
+                            <div class="caption">
+                                <h4>
+									<a href="javascript:;">
+										<%= icon_holiday_town %>
+										Varna, Bulgaria
+									</a>
+								</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                            </div>
+                            <div class="ratings">
+                                <p>
+									<%= icon_block %>
+                                </p>
+                                <p>28 reviews</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-3">
+                        <div class="thumbnail" href="<%= image_folder_name %>tsarevets.jpg">
+                            <a href="javascript:;">
+                                <%= image_tzarevets %>
+                            </a>
+                            <div class="caption">
+                                <h4>
+									<a href="javascript:;">
+										<%= icon_holiday_nature %> Tzarevets, Veliko Tarnovo, Bulgaria
+									</a>
+								</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                            </div>
+                            <div class="ratings">
+                                <p>
+									<%= icon_block %>
+                                </p>
+								<p>28 reviews</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-3">
+                        <div class="thumbnail" href="<%= image_folder_name %>london.jpeg">
+                            <a href="javascript:;">
+                                <%= image_london %>
+                            </a>
+                            <div class="caption">
+                                <h4>
+									<a href="javascript:;">
+										<%= icon_holiday_travel %> London
+									</a>
+								</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                            </div>
+                            <div class="ratings">
+                                <p>
+									<%= icon_block %>
+                                </p>
+								<p>15 reviews</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-3">
+                        <div class="thumbnail" href="<%= image_folder_name %>cibeles.jpg">
+                            <a href="javascript:;">
+                                <%= image_cibeles %>
+                            </a>
+                            <div class="caption">
+                                <h4>
+									<a href="javascript:;">
+										<%= icon_holiday_sun %> Cibeles, Madrid, Spain
+									</a>
+								</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                            </div>
+                            <div class="ratings">
+                                <p>
+									<%= icon_block %>
+                                </p>
+								<p>12 reviews</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-3">
+                        <div class="thumbnail" href="<%= image_folder_name %>recife.jpg">
+                            <a href="javascript:;">
+                                <%= image_recife %>
+                            </a>
+                            <div class="caption">
+                                <h4>
+									<a href="javascript:;">
+										<%= icon_holiday_beach %> Recife, Brasil
+									</a>
+								</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                            </div>
+                            <div class="ratings">
+                                <p>
+									<%= icon_block %>
+                                </p>
+								<p>6 reviews</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-3">
+                        <div class="thumbnail" href="<%= image_folder_name %>tree.jpeg">
+                            <a href="javascript:;">
+                                <%= image_asia %>
+                            </a>
+                            <div class="caption">
+                                <h4>
+									<a href="javascript:;">
+										<%= icon_holiday_tree %> Asia
+									</a>
+								</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                            </div>
+                            <div class="ratings">
+                                <p>
+									<%= icon_block %>
+                                </p>
+								<p>31 reviews</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-3">
+                        <div class="thumbnail" href="<%= image_folder_name %>san-fran.jpeg">
+                            <a href="javascript:;">
+                                <%= image_sanfran %>
+                            </a>
+                            <div class="caption">
+                                <h4>
+									<a href="javascript:;">
+										<%= icon_holiday_car %> San Francisco
+									</a>
+								</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                            </div>
+                            <div class="ratings">
+                                <p>
+									<%= icon_block %>
+                                </p>
+								<p>0 reviews</p>
+                            </div>
+                        </div>
+                    </li>
+                    <div class="only-visible-on-desktop">
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>cheetah.jpeg">
+                                <a href="javascript:;">
+                                    <%= image_africa %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+    									<a href="javascript:;">
+    										<%= icon_holiday_nature %> Africa
+    									</a>
+    								</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>0 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>louvre.jpg">
+                                <a href="javascript:;">
+                                    <%= image_louvre %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+    									<a href="javascript:;">
+    										<%= icon_holiday_animals %> Louvre, Paris, France
+    									</a>
+    								</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>28 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>cityview.jpeg">
+                                <a href="javascript:;">
+                                    <%= image_cityview %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+                                        <a href="javascript:;">
+                                            <%= icon_holiday_travel %> Cityview
+                                        </a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>15 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>finland.jpg">
+                                <a href="javascript:;">
+                                    <%= image_finland %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+                                        <a href="javascript:;">
+                                            <%= icon_holiday_sun %> Finland
+                                        </a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>12 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>flying-duck.jpeg">
+                                <a href="javascript:;">
+                                    <%= image_duck %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+                                        <a href="javascript:;">
+                                            <%= icon_holiday_beach %> Flying duck
+                                        </a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>6 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>art-gallery.jpg">
+                                <a href="javascript:;">
+                                    <%= image_artgallery %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+                                        <a href="javascript:;">
+                                            <%= icon_holiday_tree %> Art gallery
+                                        </a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>31 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>beginning-of-life.jpg">
+                                <a href="javascript:;">
+                                    <%= image_beginningoflife %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+                                        <a href="javascript:;">
+                                            <%= icon_holiday_car %> Beginning of life
+                                        </a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>0 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>cherry-blossom.jpg">
+                                <a href="javascript:;">
+                                    <%= image_cherryblossom %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+                                        <a href="javascript:;">
+                                            <%= icon_holiday_nature %> Cherry blossom
+                                        </a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>0 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>coffee-central.jpg">
+                                <a href="javascript:;">
+                                    <%= image_coffecentral %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+                                        <a href="javascript:;">
+                                            <%= icon_holiday_beach %> Coffee
+                                        </a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>6 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>frankfurt-waters.jpg">
+                                <a href="javascript:;">
+                                    <%= image_frankfurtwaters %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+                                        <a href="javascript:;">
+                                            <%= icon_holiday_tree %> Frankfurt waters
+                                        </a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>31 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>man-made-skies.jpg">
+                                <a href="javascript:;">
+                                    <%= image_manmadeskies %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+                                        <a href="javascript:;">
+                                            <%= icon_holiday_car %> Man made skies
+                                        </a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>0 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>old-love.jpg">
+                                <a href="javascript:;">
+                                    <%= image_oldlove %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+                                        <a href="javascript:;">
+                                            <%= icon_holiday_nature %> Old love
+                                        </a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>0 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>ungodly-skies.jpg">
+                                <a href="javascript:;">
+                                    <%= image_ungodlyskies %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+                                        <a href="javascript:;">
+                                            <%= icon_holiday_beach %> Ungodly skies
+                                        </a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>6 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>windy-day.jpg">
+                                <a href="javascript:;">
+                                    <%= image_windyday %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+                                        <a href="javascript:;">
+                                            <%= icon_holiday_tree %> Windy day
+                                        </a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>31 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>sky-and-building.jpg">
+                                <a href="javascript:;">
+                                    <%= image_skyandbuilding %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+                                        <a href="javascript:;">
+                                            <%= icon_holiday_car %> Sky and building
+                                        </a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>0 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>trombone_player.jpg">
+                                <a href="javascript:;">
+                                    <%= image_tromboneplayer %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+                                        <a href="javascript:;">
+                                            <%= icon_holiday_nature %> Trombone player
+                                        </a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>0 reviews</p>
+                                </div>
+                            </div>
+    					</li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>wasp.jpg">
+                                <a href="javascript:;">
+                                    <%= image_wasp %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+                                        <a href="javascript:;">
+                                            <%= icon_holiday_beach %> Wasp
+                                        </a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>6 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>catcher-in-the-rye.jpg">
+                                <a href="javascript:;">
+                                    <%= image_catcherintherye %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+                                        <a href="javascript:;">
+                                            <%= icon_holiday_tree %> Catcher in the rye
+                                        </a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>31 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>old-caddy.jpg">
+                                <a href="javascript:;">
+                                    <%= image_oldcaddy %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+                                        <a href="javascript:;">
+                                            <%= icon_holiday_car %> Old Caddy
+                                        </a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>0 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="thumbnail" href="<%= image_folder_name %>oneway.jpg">
+                                <a href="javascript:;">
+                                    <%= image_oneway %>
+                                </a>
+                                <div class="caption">
+                                    <h4>
+                                        <a href="javascript:;">
+                                            <%= icon_holiday_nature %> One way only
+                                        </a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
+                                </div>
+                                <div class="ratings">
+                                    <p>
+    									<%= icon_block %>
+                                    </p>
+    								<p>0 reviews</p>
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+        <div class="row">
+            <div class="col-md-12" id="timingResult">
+                Loading timing events, please wait...
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <div class="container page">
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Performance test suite is created by iteratec and based on <a href="http://http2rulez.com/">HTTP 2.0 Rulez!</a> by <a href="https://twitter.com/ipeychev">Iliyan Peychev</a>.<br></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- /.container -->
+
+    <%= javascripts_end_body %>
+
+    <script src="<%= js_folder %>/profiler.js"></script>
+    <script>
+        new __Profiler().init(document.getElementById('timingResult'));
+    </script>
+
+</body>
+
+</html>

@@ -284,7 +284,7 @@
                     <li class="col-md-3">
                         <div class="thumbnail" href="assets-cache-and-compression-disabled/images/cibeles.jpg">
                             <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Cibeles, Madrid, Spain" src="assets-cache-and-compression-disabled/images/cibeles_small_2.jpg">
+                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Cibeles, Madrid, Spain" data-src="assets-cache-and-compression-disabled/images/cibeles_small_2.jpg">
                             </a>
                             <div class="caption">
                                 <h4>
@@ -309,7 +309,7 @@
                     <li class="col-md-3">
                         <div class="thumbnail" href="assets-cache-and-compression-disabled/images/recife.jpg">
                             <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Recife, Brasil" src="assets-cache-and-compression-disabled/images/recife_small_1.jpg">
+                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Recife, Brasil" data-src="assets-cache-and-compression-disabled/images/recife_small_1.jpg">
                             </a>
                             <div class="caption">
                                 <h4>
@@ -334,7 +334,7 @@
                     <li class="col-md-3">
                         <div class="thumbnail" href="assets-cache-and-compression-disabled/images/tree.jpeg">
                             <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Asia" src="assets-cache-and-compression-disabled/images/tree.jpeg">
+                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Asia" data-src="assets-cache-and-compression-disabled/images/tree.jpeg">
                             </a>
                             <div class="caption">
                                 <h4>
@@ -359,7 +359,7 @@
                     <li class="col-md-3">
                         <div class="thumbnail" href="assets-cache-and-compression-disabled/images/san-fran.jpeg">
                             <a href="javascript:;">
-                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="San Francisco" src="assets-cache-and-compression-disabled/images/san-fran.jpeg">
+                                <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="San Francisco" data-src="assets-cache-and-compression-disabled/images/san-fran.jpeg">
                             </a>
                             <div class="caption">
                                 <h4>
@@ -385,7 +385,7 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/cheetah.jpeg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Cheetah" src="assets-cache-and-compression-disabled/images/cheetah.jpeg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Cheetah" data-src="assets-cache-and-compression-disabled/images/cheetah.jpeg">
                                 </a>
                                 <div class="caption">
                                     <h4>
@@ -410,7 +410,7 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/louvre.jpg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Louvre" src="assets-cache-and-compression-disabled/images/louvre.jpg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Louvre" data-src="assets-cache-and-compression-disabled/images/louvre.jpg">
                                 </a>
                                 <div class="caption">
                                     <h4>
@@ -435,7 +435,7 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/cityview.jpeg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Cityview" src="assets-cache-and-compression-disabled/images/cityview.jpeg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Cityview" data-src="assets-cache-and-compression-disabled/images/cityview.jpeg">
                                 </a>
                                 <div class="caption">
                                     <h4>
@@ -460,7 +460,7 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/finland.jpg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Finland" src="assets-cache-and-compression-disabled/images/finland_small.jpg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Finland" data-src="assets-cache-and-compression-disabled/images/finland_small.jpg">
                                 </a>
                                 <div class="caption">
                                     <h4>
@@ -485,7 +485,7 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/flying-duck.jpeg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Flying duck" src="assets-cache-and-compression-disabled/images/flying-duck.jpeg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Flying duck" data-src="assets-cache-and-compression-disabled/images/flying-duck.jpeg">
                                 </a>
                                 <div class="caption">
                                     <h4>
@@ -510,7 +510,7 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/art-gallery.jpg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Art gallery" src="assets-cache-and-compression-disabled/images/art-gallery.jpg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Art gallery" data-src="assets-cache-and-compression-disabled/images/art-gallery.jpg">
                                 </a>
                                 <div class="caption">
                                     <h4>
@@ -535,7 +535,7 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/beginning-of-life.jpg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Beginning of life" src="assets-cache-and-compression-disabled/images/beginning-of-life.jpg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Beginning of life" data-src="assets-cache-and-compression-disabled/images/beginning-of-life.jpg">
                                 </a>
                                 <div class="caption">
                                     <h4>
@@ -560,7 +560,7 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/cherry-blossom.jpg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Cherry blossom" src="assets-cache-and-compression-disabled/images/cherry-blossom.jpg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Cherry blossom" data-src="assets-cache-and-compression-disabled/images/cherry-blossom.jpg">
                                 </a>
                                 <div class="caption">
                                     <h4>
@@ -585,7 +585,7 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/coffee-central.jpg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Coffee central" src="assets-cache-and-compression-disabled/images/coffee-central.jpg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Coffee central" data-src="assets-cache-and-compression-disabled/images/coffee-central.jpg">
                                 </a>
                                 <div class="caption">
                                     <h4>
@@ -610,7 +610,7 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/frankfurt-waters.jpg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Frankfurt waters" src="assets-cache-and-compression-disabled/images/frankfurt-waters.jpg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Frankfurt waters" data-src="assets-cache-and-compression-disabled/images/frankfurt-waters.jpg">
                                 </a>
                                 <div class="caption">
                                     <h4>
@@ -635,7 +635,7 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/man-made-skies.jpg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Man made skies" src="assets-cache-and-compression-disabled/images/man-made-skies.jpg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Man made skies" data-src="assets-cache-and-compression-disabled/images/man-made-skies.jpg">
                                 </a>
                                 <div class="caption">
                                     <h4>
@@ -660,7 +660,7 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/old-love.jpg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Old love" src="assets-cache-and-compression-disabled/images/old-love.jpg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Old love" data-src="assets-cache-and-compression-disabled/images/old-love.jpg">
                                 </a>
                                 <div class="caption">
                                     <h4>
@@ -685,7 +685,7 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/ungodly-skies.jpg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Ungodly skies" src="assets-cache-and-compression-disabled/images/ungodly-skies.jpg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Ungodly skies" data-src="assets-cache-and-compression-disabled/images/ungodly-skies.jpg">
                                 </a>
                                 <div class="caption">
                                     <h4>
@@ -710,7 +710,7 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/windy-day.jpg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Windy day" src="assets-cache-and-compression-disabled/images/windy-day.jpg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Windy day" data-src="assets-cache-and-compression-disabled/images/windy-day.jpg">
                                 </a>
                                 <div class="caption">
                                     <h4>
@@ -735,7 +735,7 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/sky-and-building.jpg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Sky and building" src="assets-cache-and-compression-disabled/images/sky-and-building.jpg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Sky and building" data-src="assets-cache-and-compression-disabled/images/sky-and-building.jpg">
                                 </a>
                                 <div class="caption">
                                     <h4>
@@ -760,7 +760,7 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/trombone_player.jpg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Trombone_player" src="assets-cache-and-compression-disabled/images/trombone_player.jpg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Trombone_player" data-src="assets-cache-and-compression-disabled/images/trombone_player.jpg">
                                 </a>
                                 <div class="caption">
                                     <h4>

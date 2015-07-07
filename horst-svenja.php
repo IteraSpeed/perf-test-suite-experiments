@@ -16,12 +16,9 @@
 	<link rel="stylesheet" type="text/css" href="assets-cache-and-compression-disabled/css/magnific-popup.css">
 	<!-- icons -->
 	<link rel="stylesheet" type="text/css" href="assets-cache-and-compression-disabled/css/font-awesome.css">
-    <link href="assets-cache-and-compression-disabled/css/spritesheet.css" rel="stylesheet">
 	<!-- Custom CSS -->
 	<link href="assets-cache-and-compression-disabled/css/header.css" rel="stylesheet">
 	<link href="assets-cache-and-compression-disabled/css/main.css" rel="stylesheet">
-
-    
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

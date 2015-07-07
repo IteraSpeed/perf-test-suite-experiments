@@ -57,7 +57,8 @@
             <div class="navbar-header">
                 <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
-                    <img src="assets-cache-and-compression-disabled/images/icons/bars.png" />
+
+			    <i class="sprite sprite-bars"></i>
                 </button>
 
                 <a href="index.php" class="navbar-brand">perf-test-suite</a>
@@ -148,10 +149,10 @@
                             </div>
                         </div>
                         <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <img src="assets-cache-and-compression-disabled/images/icons/chevron-left.png" />
+<i class="sprite sprite-chevron-left"></i>
                         </a>
                         <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                            <img src="assets-cache-and-compression-disabled/images/icons/chevron-right.png" />
+<i class="sprite sprite-chevron-right"></i>
                         </a>
                     </div>
                 </div>
@@ -169,7 +170,7 @@
                         <p>                           
 			    <i class="sprite sprite-quote-left"></i>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.
-                            <img src="assets-cache-and-compression-disabled/images/icons/quote-right.png" />
+			    <i class="fa fa-quote-right"></i>
                         </p>
                         <small>Someone famous</small>
                     </div>

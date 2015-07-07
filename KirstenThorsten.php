@@ -16,6 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="assets-cache-and-compression-disabled/css/magnific-popup.css">
 	<!-- icons -->
 	<link rel="stylesheet" type="text/css" href="assets-cache-and-compression-disabled/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/spritesheet.css">
 	<!-- Custom CSS -->
 	<link href="assets-cache-and-compression-disabled/css/header.css" rel="stylesheet">
 	<link href="assets-cache-and-compression-disabled/css/main.css" rel="stylesheet">
@@ -165,8 +166,8 @@
                         <img class="img-circle" style="width: 100px;height:100px;" src="assets-cache-and-compression-disabled/images/person_3.png">
                     </div>
                     <div class="col-sm-9">
-                        <p>
-                            <img src="assets-cache-and-compression-disabled/images/icons/quote-left.png" />
+                        <p>                           
+			    <i class="sprite sprite-quote-left"></i>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.
                             <img src="assets-cache-and-compression-disabled/images/icons/quote-right.png" />
                         </p>

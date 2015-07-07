@@ -20,22 +20,7 @@
 	<link href="assets-cache-and-compression-disabled/css/header.css" rel="stylesheet">
 	<link href="assets-cache-and-compression-disabled/css/main.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
-    <!-- jQuery Version 1.11.0 -->
-	<script src="assets-cache-and-compression-disabled/js/jquery-1.11.0.js"></script>
-	<script src="assets-cache-and-compression-disabled/js/jquery-ui.js"></script>
-	<!-- Bootstrap Core JavaScript -->
-	<script src="assets-cache-and-compression-disabled/js/bootstrap.js"></script>
-	<script src="assets-cache-and-compression-disabled/js/jquery.magnific-popup.js"></script>
-	<script src="assets-cache-and-compression-disabled/js/shuffle.js"></script>
-	<script src="assets-cache-and-compression-disabled/js/jquery.shapeshift.js"></script>
-	<script src="assets-cache-and-compression-disabled/js/homepage.js"></script>
 
 </head>
 
@@ -908,8 +893,23 @@
     </div>
     <!-- /.container -->
 
-    
 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="assets-cache-and-compression-disabled/js/jquery-1.11.0.js"></script>
+    <script src="assets-cache-and-compression-disabled/js/jquery-ui.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets-cache-and-compression-disabled/js/bootstrap.js"></script>
+    <script src="assets-cache-and-compression-disabled/js/jquery.magnific-popup.js"></script>
+    <script src="assets-cache-and-compression-disabled/js/shuffle.js"></script>
+    <script src="assets-cache-and-compression-disabled/js/jquery.shapeshift.js"></script>
+    <script src="assets-cache-and-compression-disabled/js/homepage.js"></script>
     <script src="assets-cache-and-compression-disabled/js/profiler.js"></script>
     <script src="assets-cache-and-compression-disabled/js/horst-svenja.js"></script>
     <script>

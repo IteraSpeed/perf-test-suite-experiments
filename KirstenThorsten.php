@@ -289,18 +289,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-sun.png" /> Cibeles, Madrid, Spain
+										<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-sun.png" /> Cibeles, Madrid, Spain
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                 </p>
 								<p>12 reviews</p>
                             </div>
@@ -314,18 +314,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-beach.png" /> Recife, Brasil
+										<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-beach.png" /> Recife, Brasil
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                 </p>
 								<p>6 reviews</p>
                             </div>
@@ -339,18 +339,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-tree.png" /> Asia
+										<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-tree.png" /> Asia
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                 </p>
 								<p>31 reviews</p>
                             </div>
@@ -364,18 +364,18 @@
                             <div class="caption">
                                 <h4>
 									<a href="javascript:;">
-										<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-car.png" /> San Francisco
+										<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-car.png" /> San Francisco
 									</a>
 								</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                             </div>
                             <div class="ratings">
                                 <p>
-									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                 </p>
 								<p>0 reviews</p>
                             </div>
@@ -390,18 +390,18 @@
                                 <div class="caption">
                                     <h4>
     									<a href="javascript:;">
-    										<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-nature.png" /> Africa
+    										<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-nature.png" /> Africa
     									</a>
     								</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>0 reviews</p>
                                 </div>
@@ -415,18 +415,18 @@
                                 <div class="caption">
                                     <h4>
     									<a href="javascript:;">
-    										<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-animals.png" /> Louvre, Paris, France
+    										<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-animals.png" /> Louvre, Paris, France
     									</a>
     								</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>28 reviews</p>
                                 </div>
@@ -440,18 +440,18 @@
                                 <div class="caption">
                                     <h4>
                                         <a href="javascript:;">
-                                            <img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-travel.png" /> Cityview
+                                            <img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-travel.png" /> Cityview
                                         </a>
                                     </h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>15 reviews</p>
                                 </div>
@@ -465,18 +465,18 @@
                                 <div class="caption">
                                     <h4>
                                         <a href="javascript:;">
-                                            <img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-sun.png" /> Finland
+                                            <img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-sun.png" /> Finland
                                         </a>
                                     </h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>12 reviews</p>
                                 </div>
@@ -490,18 +490,18 @@
                                 <div class="caption">
                                     <h4>
                                         <a href="javascript:;">
-                                            <img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-beach.png" /> Flying duck
+                                            <img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-beach.png" /> Flying duck
                                         </a>
                                     </h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>6 reviews</p>
                                 </div>
@@ -515,18 +515,18 @@
                                 <div class="caption">
                                     <h4>
                                         <a href="javascript:;">
-                                            <img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-tree.png" /> Art gallery
+                                            <img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-tree.png" /> Art gallery
                                         </a>
                                     </h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>31 reviews</p>
                                 </div>
@@ -540,18 +540,18 @@
                                 <div class="caption">
                                     <h4>
                                         <a href="javascript:;">
-                                            <img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-car.png" /> Beginning of life
+                                            <img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-car.png" /> Beginning of life
                                         </a>
                                     </h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>0 reviews</p>
                                 </div>
@@ -565,18 +565,18 @@
                                 <div class="caption">
                                     <h4>
                                         <a href="javascript:;">
-                                            <img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-nature.png" /> Cherry blossom
+                                            <img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-nature.png" /> Cherry blossom
                                         </a>
                                     </h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>0 reviews</p>
                                 </div>
@@ -590,18 +590,18 @@
                                 <div class="caption">
                                     <h4>
                                         <a href="javascript:;">
-                                            <img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-beach.png" /> Coffee
+                                            <img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-beach.png" /> Coffee
                                         </a>
                                     </h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>6 reviews</p>
                                 </div>
@@ -615,18 +615,18 @@
                                 <div class="caption">
                                     <h4>
                                         <a href="javascript:;">
-                                            <img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-tree.png" /> Frankfurt waters
+                                            <img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-tree.png" /> Frankfurt waters
                                         </a>
                                     </h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>31 reviews</p>
                                 </div>
@@ -640,18 +640,18 @@
                                 <div class="caption">
                                     <h4>
                                         <a href="javascript:;">
-                                            <img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-car.png" /> Man made skies
+                                            <img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-car.png" /> Man made skies
                                         </a>
                                     </h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>0 reviews</p>
                                 </div>
@@ -665,18 +665,18 @@
                                 <div class="caption">
                                     <h4>
                                         <a href="javascript:;">
-                                            <img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-nature.png" /> Old love
+                                            <img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-nature.png" /> Old love
                                         </a>
                                     </h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>0 reviews</p>
                                 </div>
@@ -690,18 +690,18 @@
                                 <div class="caption">
                                     <h4>
                                         <a href="javascript:;">
-                                            <img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-beach.png" /> Ungodly skies
+                                            <img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-beach.png" /> Ungodly skies
                                         </a>
                                     </h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>6 reviews</p>
                                 </div>
@@ -715,18 +715,18 @@
                                 <div class="caption">
                                     <h4>
                                         <a href="javascript:;">
-                                            <img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-tree.png" /> Windy day
+                                            <img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-tree.png" /> Windy day
                                         </a>
                                     </h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>31 reviews</p>
                                 </div>
@@ -740,18 +740,18 @@
                                 <div class="caption">
                                     <h4>
                                         <a href="javascript:;">
-                                            <img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-car.png" /> Sky and building
+                                            <img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-car.png" /> Sky and building
                                         </a>
                                     </h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>0 reviews</p>
                                 </div>
@@ -765,18 +765,18 @@
                                 <div class="caption">
                                     <h4>
                                         <a href="javascript:;">
-                                            <img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-nature.png" /> Trombone player
+                                            <img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-nature.png" /> Trombone player
                                         </a>
                                     </h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>0 reviews</p>
                                 </div>
@@ -785,23 +785,23 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/wasp.jpg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Wasp" src="assets-cache-and-compression-disabled/images/wasp.jpg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Wasp" data-src="assets-cache-and-compression-disabled/images/wasp.jpg">
                                 </a>
                                 <div class="caption">
                                     <h4>
                                         <a href="javascript:;">
-                                            <img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-beach.png" /> Wasp
+                                            <img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-beach.png" /> Wasp
                                         </a>
                                     </h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>6 reviews</p>
                                 </div>
@@ -810,23 +810,23 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/catcher-in-the-rye.jpg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Catcher in the rye" src="assets-cache-and-compression-disabled/images/catcher-in-the-rye.jpg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Catcher in the rye" data-src="assets-cache-and-compression-disabled/images/catcher-in-the-rye.jpg">
                                 </a>
                                 <div class="caption">
                                     <h4>
                                         <a href="javascript:;">
-                                            <img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-tree.png" /> Catcher in the rye
+                                            <img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-tree.png" /> Catcher in the rye
                                         </a>
                                     </h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>31 reviews</p>
                                 </div>
@@ -835,23 +835,23 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/old-caddy.jpg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Old caddy" src="assets-cache-and-compression-disabled/images/old-caddy.jpg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="Old caddy" data-src="assets-cache-and-compression-disabled/images/old-caddy.jpg">
                                 </a>
                                 <div class="caption">
                                     <h4>
                                         <a href="javascript:;">
-                                            <img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-car.png" /> Old Caddy
+                                            <img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-car.png" /> Old Caddy
                                         </a>
                                     </h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>0 reviews</p>
                                 </div>
@@ -860,23 +860,23 @@
                         <li class="col-md-3">
                             <div class="thumbnail" href="assets-cache-and-compression-disabled/images/oneway.jpg">
                                 <a href="javascript:;">
-                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="One way only" src="assets-cache-and-compression-disabled/images/oneway.jpg">
+                                    <img class="attachment-portfolio-full wp-post-image" width="600" height="400" alt="One way only" data-src="assets-cache-and-compression-disabled/images/oneway.jpg">
                                 </a>
                                 <div class="caption">
                                     <h4>
                                         <a href="javascript:;">
-                                            <img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/holiday-nature.png" /> One way only
+                                            <img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/holiday-nature.png" /> One way only
                                         </a>
                                     </h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis, lorem vitae volutpat luctus, lectus nisl suscipit sem, nec varius magna neque in dui. Nullam non leo id turpis hendrerit...</p>
                                 </div>
                                 <div class="ratings">
                                     <p>
-    									<img class="icon-small" src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star-filled.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
-									<img class="icon-small" src="assets/images/icons/star.png" />
+    									<img class="icon-small" data-src="assets-cache-and-compression-disabled/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star-filled.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
+									<img class="icon-small" data-src="assets/images/icons/star.png" />
                                     </p>
     								<p>0 reviews</p>
                                 </div>
